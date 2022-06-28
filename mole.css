@@ -1,0 +1,70 @@
+.wgs {
+  position: relative;
+  width: 320px;
+  height: 241px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs-mole {
+  position: absolute;
+  width: 188px;
+  height: 178px;
+  left: 55px;
+  transition: margin-top 0.25s;
+}
+
+.wgs-hill {
+  position: absolute;
+  width: 320px;
+  height: 110px;
+  bottom: 0px;
+}
+
+.wgs-mole-head-hidden {
+  margin-top: 241px;
+}
+
+.pow {
+  position: absolute;
+  left: 40px;
+  bottom: 50px;
+  font-size: 170px;
+  display: none;
+}
+
+.mole-powed {
+  display: block;
+}
+
+.pf {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
+.sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645DED;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+
+.sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+}
+
+.sb__score-holder {
+  flex: 1 0 0;
+}
+
+.sb__game-over--hidden {
+  display: none;
+}
